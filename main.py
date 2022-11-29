@@ -140,7 +140,7 @@ class MyWidget(QMainWindow):
         self.coffee()
 
     def coffee(self):
-        self.tableWidget.setColumnCount(5)
+        self.tableWidget.setColumnCount(7)
         self.g = 0
         self.con = sqlite3.connect("coffee.db")
         self.cur = self.con.cursor()
